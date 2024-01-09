@@ -1,0 +1,72 @@
+/* styles.css */
+
+:root {
+    --main-color: #739072; /* Define the main color variable */
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+.form-container {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    width: 50%;
+    max-width: 800px; /* Adjusted max-width */
+}
+
+.form-container:hover {
+    background-color: #f3f3f3;
+}
+
+/* Button color */
+.btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:active {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+/* Input styles */
+.form-control:hover {
+    border-color: var(--main-color);
+    box-shadow: 0 0 5px rgba(115, 144, 114, 0.8);
+}
+
+.form-control:active {
+    border-color: var(--main-color);
+    box-shadow: 0 0 8px rgba(69, 103, 56, 0.8);
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    padding: 10px;
+    text-align: center;
+    color: #609563;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
